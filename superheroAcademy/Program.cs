@@ -6,7 +6,9 @@ namespace superheroAcademy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Mythical ancientZoanType = new Mythical("Kaido", "Dragon");
+            System.Console.WriteLine(ancientZoanType.heroName);
+            Console.ReadLine();
         }
     }
 }
